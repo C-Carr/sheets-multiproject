@@ -20,7 +20,7 @@ scope = ['https://www.googleapis.com/auth/spreadsheets',
 'https://www.googleapis.com/auth/drive']
 creds = ServiceAccountCredentials.from_json_keyfile_name('Sleep schedule-7dd92de5dbe9.json', scope)
 client = pygsheets.authorize(service_account_file='Sleep schedule-7dd92de5dbe9.json')
-sheet = client.open("Douglas' sleep schedule")
+sheet = client.open("sleep schedule")
 wk1 = sheet.sheet1
 
 class starting_times():
@@ -58,7 +58,7 @@ scope = ['https://www.googleapis.com/auth/spreadsheets',
 'https://www.googleapis.com/auth/drive']
 creds = ServiceAccountCredentials.from_json_keyfile_name('Sleep schedule-7dd92de5dbe9.json', scope)
 client = pygsheets.authorize(service_account_file='Sleep schedule-7dd92de5dbe9.json')
-sheet = client.open("Douglas' sleep schedule")
+sheet = client.open("sleep schedule")
 wk1 = sheet.sheet1
 
 class starting_times():
